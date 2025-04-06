@@ -1,4 +1,4 @@
-import flatpickr from 'flatpickr';
+import flatpickr from 'flatpickr-jalali-support';
 import {defineComponent, h, nextTick} from 'vue';
 import type {PropType} from 'vue'
 import {excludedEvents, includedEvents} from './events';

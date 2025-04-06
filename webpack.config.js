@@ -27,7 +27,7 @@ module.exports = {
       amd: 'vue',
       root: 'Vue'
     },
-    'flatpickr': 'flatpickr'
+    'flatpickr-jalali-support': 'flatpickr-jalali-support'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),

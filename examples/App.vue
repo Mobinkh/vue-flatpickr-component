@@ -184,20 +184,20 @@
 </template>
 
 <script>
-import flatpickr from "flatpickr";
+import flatpickr from "flatpickr-jalali-support";
 // Init component
 import flatPickrComponent from '../src/index';
 // Need to add base css for flatpickr
-import 'flatpickr/dist/flatpickr.min.css';
+import 'flatpickr-jalali-support/dist/flatpickr.min.css';
 // l10n is optional
-import {Hindi as HindiLocale} from 'flatpickr/dist/l10n/hi.js';
-import {english as EnglishLocale} from 'flatpickr/dist/l10n/default.js'
+import {Hindi as HindiLocale} from 'flatpickr-jalali-support/dist/l10n/hi.js';
+import {english as EnglishLocale} from 'flatpickr-jalali-support/dist/l10n/default.js'
 // Plugins are optional
 // https://flatpickr.js.org/plugins/
-import ConfirmDatePlugin from 'flatpickr/dist/plugins/confirmDate/confirmDate.js';
-import 'flatpickr/dist/plugins/confirmDate/confirmDate.css';
-import monthSelectPlugin from 'flatpickr/dist/plugins/monthSelect/index.js'
-import 'flatpickr/dist/plugins/monthSelect/style.css'
+import ConfirmDatePlugin from 'flatpickr-jalali-support/dist/plugins/confirmDate/confirmDate.js';
+import 'flatpickr-jalali-support/dist/plugins/confirmDate/confirmDate.css';
+import monthSelectPlugin from 'flatpickr-jalali-support/dist/plugins/monthSelect/index.js'
+import 'flatpickr-jalali-support/dist/plugins/monthSelect/style.css'
 
 // Override Global settings
 flatpickr.setDefaults({

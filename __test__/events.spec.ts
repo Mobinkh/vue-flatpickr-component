@@ -1,5 +1,5 @@
 import {mount} from '@vue/test-utils'
-import Flatpicker from 'flatpickr';
+import Flatpicker from 'flatpickr-jalali-support';
 import Component from '../src/component';
 
 describe('Flatpickr events', () => {

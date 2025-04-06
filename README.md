@@ -13,12 +13,9 @@ Vue.js component for [Flatpickr](https://flatpickr.js.org/) date-time picker.
 
 ## [Demo](https://ankurk91.github.io/vue-flatpickr-component/) or [JSFiddle](https://jsfiddle.net/ankurk91/63kzdwLx/)
 
-### Version matrix
+### Note
 
-|Vue.js version| Package version |                                                              Branch |
-|:-------------|:---------------:|--------------------------------------------------------------------:| 
-| 2.x          |       8.x       | [8.x](https://github.com/ankurk91/vue-flatpickr-component/tree/8.x) |
-| 3.x          |      12.x       |                                                            `main` |
+This version is highly copied from the original with 1 difference which is use of flatpickr of jalali version so basically to support jalali dates thats it !
 
 ## Features
 
@@ -35,7 +32,7 @@ Vue.js component for [Flatpickr](https://flatpickr.js.org/) date-time picker.
 ## Installation
 
 ```bash
-npm install vue-flatpickr-component@^11
+npm install vue-flatpickr-jalili-component
 ```
 
 ## Usage
@@ -137,22 +134,6 @@ The component accepts these props:
 | config    |                     Object                      |               `{ wrap: false }`                | Flatpickr configuration [options](https://flatpickr.js.org/options/)   |
 | events    |                      Array                      | Array of sensible [events](./src/events.ts#L2) | Customise the [events](https://flatpickr.js.org/events/) to be emitted |
 
-## Use in browser with CDN 
-
-```html
-<!-- Flatpickr related files -->
-<link href="https://cdn.jsdelivr.net/npm/flatpickr@4/dist/flatpickr.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/flatpickr@4/dist/flatpickr.min.js"></script>
-<!-- Vue.js -->
-<script src="https://cdn.jsdelivr.net/npm/vue@3.3"></script>
-<!-- Lastly add this package -->
-<script src="https://cdn.jsdelivr.net/npm/vue-flatpickr-component@11"></script>
-<script>
-    const app = Vue.createApp({})
-    app.component('flat-pickr', VueFlatpickr.default);
-    app.mount("#app");
-</script>
-```
 
 ## Run examples on your localhost
 

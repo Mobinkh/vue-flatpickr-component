@@ -1,6 +1,6 @@
 {
-  "name": "vue-flatpickr-component",
-  "version": "12.0.0",
+  "name": "vue-flatpickr-jalili-component",
+  "version": "1.0.1",
   "description": "Vue.js component for Flatpickr date-time picker",
   "main": "dist/index.umd.js",
   "module": "dist/esm/index.js",
@@ -10,10 +10,6 @@
     "dist",
     "types"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ankurk91/vue-flatpickr-component.git"
-  },
   "keywords": [
     "vue",
     "flatpicker",
@@ -21,12 +17,8 @@
     "date picker",
     "time picker"
   ],
-  "author": "ankurk91",
+  "author": "Mobin.kh",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ankurk91/vue-flatpickr-component/issues"
-  },
-  "homepage": "https://github.com/ankurk91/vue-flatpickr-component",
   "scripts": {
     "test": "jest --runInBand",
     "test:watch": "npm run test --watch --notify",
@@ -39,7 +31,7 @@
     "prepublishOnly": "npm run test && npm run build"
   },
   "dependencies": {
-    "flatpickr": "^4.6.13"
+    "flatpickr-jalali-support": "^1.0.3"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",

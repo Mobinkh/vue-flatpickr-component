@@ -1,5 +1,5 @@
 // Events to emit, copied from flatpickr source
-import flatpickr from 'flatpickr';
+import flatpickr from 'flatpickr-jalali-support';
 import HookKey = flatpickr.Options.HookKey;
 
 const includedEvents = [
